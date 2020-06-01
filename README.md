@@ -1,8 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ethereum DApp Sign & Verify Messages with Solidity, Truffle, MetaMask, React, Web3, Bootstrap
+
+## Usage
+
+### `npm install`
+
+Before running the available scripts, you need to be sure that all dependencies from package.json are installed properly.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `truffle migrate`
+
+Compiles and deploys the smart contract on the network specified in truffle-config.js.
+
+### `truffle migrate --reset`
+
+Recompile and redeploy the smart contract on the network specified in truffle-config.js.
 
 ### `npm start`
 
